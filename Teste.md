@@ -7,9 +7,9 @@
 
 - **Nome do Software**: Better Team
 - **Versão:** 1.0
-- **Data:** \15/10/2025\
-- **Autor(es):** \Kayky Santos Góes, Abner, Marcos Azevedor\
-- **Aprovado por:** \[Responsável pelo projeto\]
+- **Data:** 15/10/2025
+- **Autor(es):** Kayky Santos Góes, Abner, Marcos Azevedor
+- **Aprovado por:** Responsável pelo projeto
 
 ## 1. Introdução
 
