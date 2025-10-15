@@ -7,24 +7,24 @@
 
 - **Nome do Software**: Better Team
 - **Versão:** 1.0
-- **Data:** \[15/10/2025\]
-- **Autor(es):** \[Kayky Santos Góes, Abner, Marcos Azevedor\]
+- **Data:** \15/10/2025\
+- **Autor(es):** \Kayky Santos Góes, Abner, Marcos Azevedor\
 - **Aprovado por:** \[Responsável pelo projeto\]
 
 ## 1. Introdução
 
 ### 1.1 Propósito
 
-Este documento descreve as funcionalidades, interfaces e comportamentos esperados para o sistema **Calculadora**, cujo objetivo é permitir que usuários realizem operações aritméticas básicas e avançadas com facilidade e precisão.
+Este projeto é voltado para equipes esportivas que buscam aprimorar seu desempenho por meio do uso de listas compartilhadas entre os membros da equipe. A proposta permite o acompanhamento individual e coletivo do progresso, promovendo maior organização e colaboração.
 
 ### 1.2 Escopo
 
-O sistema "Calculadora" será uma aplicação de interface gráfica (GUI) que permitirá ao usuário realizar as seguintes operações:
+O sistema "Better Team" será uma aplicação de interface gráfica (GUI) que permitirá ao usuário realizar as seguintes ações:
 
-* Operações básicas: soma, subtração, multiplicação e divisão;
-* Operações científicas: potência, raiz quadrada, logaritmo, seno, cosseno, tangente;
-* Histórico de operações;
-* Suporte a parênteses e precedência de operadores;
+* Estabelecer metas;
+* Marcar a conclusão de metas;
+* Analisar a propria progressão  e a do seu time;
+* Gamificação para sequencia de metas batidas;
 * Interface amigável, responsiva e acessível.
 
 A aplicação será multiplataforma (Windows, Linux, macOS) e poderá ser utilizada tanto por estudantes quanto por profissionais.
