@@ -25,6 +25,7 @@ O sistema "Better Team" será uma aplicação de interface gráfica (GUI) que pe
 * Marcar a conclusão de metas;
 * Analisar a propria progressão  e a do seu time;
 * Gamificação para sequencia de metas batidas;
+* Batalhas de pontuação entre times;
 * Interface amigável, responsiva e acessível.
 
 A aplicação será multiplataforma (Windows, Linux, macOS) e poderá ser utilizada tanto por estudantes quanto por profissionais.
@@ -36,7 +37,7 @@ A aplicação será multiplataforma (Windows, Linux, macOS) e poderá ser utiliz
 | GUI     | Interface Gráfica do Usuário                      |
 | IEEE    | Institute of Electrical and Electronics Engineers |
 | DEF     | Documento de Especificação Funcional              |
-| Usuário | Pessoa que interage com o sistema calculadora     |
+| Usuário | Pessoa que interage com o sistema Better Team     |
 
 ## 2. Descrição Geral
 
@@ -48,12 +49,12 @@ O sistema será desenvolvido como uma aplicação independente, podendo ser exec
 
 O sistema deve oferecer as seguintes funcionalidades:
 
-* Permitir entrada de números e operações via botões na interface;
-* Exibir o resultado de uma expressão;
-* Validar expressões matemáticas;
-* Exibir mensagens de erro em caso de entrada inválida;
-* Manter um histórico das últimas 10 operações;
-* Suporte a operações científicas em modo avançado.
+* Permitir criação de metas na interface;
+* Exibir progresso até o limite determinado;
+* Exibir Gamificação de dias seguidos;
+* Exibir lembrentes;
+* Permitir ediçao de metas estabelecidas;
+  
 
 ### 2.3 Características dos Usuários
 
@@ -63,7 +64,7 @@ O público-alvo abrange usuários com familiaridade básica com sistemas operaci
 
 * O sistema deverá ser compatível com Python 3.8 ou superior;
 * A interface deverá ser responsiva e acessível (uso de fontes legíveis, contraste adequado);
-* Não será necessário conexão com a internet para operar;
+* Será necessário conexão com a internet para operar;
 * O sistema não armazenará dados em nuvem.
 
 ### 2.5 Suposições e Dependências
@@ -78,10 +79,10 @@ O público-alvo abrange usuários com familiaridade básica com sistemas operaci
 
 | Código | Descrição                                                                                            |
 | ------ | ---------------------------------------------------------------------------------------------------- |
-| RF001  | O sistema deve permitir realizar operações de adição, subtração, multiplicação e divisão.            |
-| RF002  | O sistema deve exibir o resultado após o pressionamento do botão "=".                                |
-| RF003  | O sistema deve validar e rejeitar expressões matemáticas inválidas, exibindo mensagem de erro.       |
-| RF004  | O sistema deve manter um histórico das últimas 10 operações realizadas.                              |
+| RF001  | O sistema deve permitir entrada de novas metas.            |
+| RF002  | O Sistema deve permitir a edição de metas.                                |
+| RF003  | O sistema deve validar e rejeitar metas com caracteres invalidos.       |
+| RF004  | O sistema deve .                              |
 | RF005  | O sistema deve suportar o uso de parênteses e respeitar a precedência de operadores.                 |
 | RF006  | O sistema deve oferecer funções científicas como seno, cosseno, tangente, raiz quadrada e logaritmo. |
 | RF007  | O sistema deve permitir limpar a tela de entrada com um botão "C".                                   |
