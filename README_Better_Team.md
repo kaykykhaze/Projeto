@@ -185,7 +185,9 @@ O sistema será composto por:
 ---
 
 ## 4.3 Mockups (Descrição)  
-- Login  
+- Login
+- ![IMG-20251118-WA0037(1)](https://github.com/user-attachments/assets/ff1f59f9-fc97-4f7c-a162-82c5ec291284)
+
 - Dashboard  
 - Equipe  
 - Lista  
