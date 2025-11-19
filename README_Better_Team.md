@@ -158,14 +158,29 @@ O sistema será composto por:
 
 # 4. Anexos
 
-## 4.1 Cartões de Tarefa (XP)  
-- **US01** Criar conta  
-- **US02** Criar equipe  
-- **US03** Criar lista  
-- **US04** Concluir tarefa  
-- **US05** Ganhar pontos  
-- **US06** Visualizar dashboard  
-- **US07** Receber notificações  
+## 4.1 Cartões de Tarefa (XP)
+
+### **US01 – Criar conta**
+Representa o primeiro passo do usuário no sistema. A criação bem-sucedida da conta inicia seu ciclo de engajamento e registra sua entrada na plataforma.
+
+### **US02 – Criar equipe**
+Permite que o usuário estabeleça um grupo de trabalho ou treino, criando o ambiente colaborativo no qual a gamificação será aplicada.
+
+### **US03 – Criar lista**
+Define a capacidade de estruturar tarefas. Cada lista funciona como um agrupamento de atividades, servindo de base para geração de XP.
+
+### **US04 – Concluir tarefa**
+Ação central do sistema. Ao concluir uma tarefa, o usuário executa um evento que alimenta XP, ranking e métricas de produtividade.
+
+### **US05 – Ganhar pontos**
+Registro da pontuação recebida após cada conclusão de tarefa. Este cartão define a lógica de progressão baseada em esforço e desempenho.
+
+### **US06 – Visualizar dashboard**
+Permite ao usuário acompanhar seu desempenho, estatísticas, evolução e comparativos dentro da equipe.
+
+### **US07 – Receber notificações**
+Garantia de que o sistema pode alertar usuários sobre tarefas, prazos e atualizações, aumentando engajamento e consistência de uso.
+
 
 ---
 
