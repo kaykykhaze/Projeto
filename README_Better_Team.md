@@ -12,7 +12,7 @@ Curso Técnico em **Análise e Desenvolvimento de Sistemas**
 
 ---
 
-## 📄 Documento: *Especificação Funcional — Better Team*  
+## 📄 Documento: *Especificação Funcional - Better Team*  
 Local: Valença/BA  
 
 ---
