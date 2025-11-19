@@ -1,6 +1,6 @@
-# 📘 Especificação Funcional — **Better Team**
+# 📘 Especificação Funcional - **Better Team**
 
-Instituto Federal da Bahia — **Campus Valença**  
+Instituto Federal da Bahia - **Campus Valença**  
 Curso Técnico em **Análise e Desenvolvimento de Sistemas**
 
 ---
