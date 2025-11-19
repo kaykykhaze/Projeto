@@ -202,5 +202,5 @@ Deploy                        ███
 
 ---
 
-# ✔ Arquivo formatado para GitHub
+
 
