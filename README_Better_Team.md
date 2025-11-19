@@ -158,7 +158,7 @@ O sistema será composto por:
 
 # 4. Anexos
 
-## 4.1 User Stories (XP)  
+## 4.1 Cartões de Tarefa (XP)  
 - **US01** Criar conta  
 - **US02** Criar equipe  
 - **US03** Criar lista  
