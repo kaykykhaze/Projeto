@@ -170,10 +170,17 @@ O sistema será composto por:
 ---
 
 ## 4.2 Spikes  
-- Ranking gamificado  
-- Arquitetura (RN + Node ou Flutter)  
-- Notificações push  
-- Bibliotecas de gráficos  
+- Ranking Gamificado:
+  Estudo das regras de pontuação, níveis, medalhas e critérios de ranking. Avaliação de fórmulas matemáticas, modelos de progressão e estratégias de engajamento.
+
+- Arquitetura (React Native + Node ou Flutter):
+  Análise comparativa das tecnologias para definir a stack final. Considera performance, compatibilidade, bibliotecas disponíveis, manutenção e facilidade de implementação.
+
+- Notificações Push:
+  Pesquisa sobre serviços de envio de notificações (FCM, OneSignal, Expo). Avaliação de integração com mobile e backend, permissões, entrega, custo e prototipação de envio.
+
+- Bibliotecas de Gráficos:
+  Estudo das bibliotecas adequadas para dashboards (Victory, Recharts, fl_chart). Considera performance, animações, visual, tipos de gráficos e integração com as plataformas escolhidas.
 
 ---
 
