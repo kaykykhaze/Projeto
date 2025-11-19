@@ -185,13 +185,18 @@ O sistema será composto por:
 ---
 
 ## 4.3 Mockups (Descrição)  
-- Login
+- **Login**
 - ![IMG-20251118-WA0037(1)](https://github.com/user-attachments/assets/ff1f59f9-fc97-4f7c-a162-82c5ec291284)
 
-- Dashboard  
-- Equipe  
-- Lista  
-- Gamificação  
+- **Dashboard**
+- ![IMG-20251118-WA0036(1)](https://github.com/user-attachments/assets/94fa0abb-7e46-40d0-a065-90959c511baf)
+  
+- **Lista**
+- ![IMG-20251118-WA0038(1)](https://github.com/user-attachments/assets/e967a777-de72-496a-b0c1-283ed1cbd383)
+
+- **Gamificação**
+- ![IMG-20251118-WA0035(2)](https://github.com/user-attachments/assets/f4d2cd09-bf0f-4d8e-8b36-57f18a955599)
+  
 
 ---
 
