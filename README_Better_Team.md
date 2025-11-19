@@ -1,18 +1,18 @@
-# 📘 Especificação Funcional - **Better Team**
+# Especificação Funcional - **Better Team**
 
 Instituto Federal da Bahia - **Campus Valença**  
 Curso Técnico em **Análise e Desenvolvimento de Sistemas**
 
 ---
 
-## 👤 Autores
+## Autores
 - **Abner Silva de Azevedo**  
 - **Kayky Santos Góes**  
 - **Marcos Azevedo**
 
 ---
 
-## 📄 Documento: *Especificação Funcional - Better Team*  
+## Documento: *Especificação Funcional - Better Team*  
 Local: Valença/BA  
 
 ---
@@ -186,16 +186,16 @@ O sistema será composto por:
 
 ## 4.3 Mockups (Descrição)  
 - **Login**
-- ![IMG-20251118-WA0037(1)](https://github.com/user-attachments/assets/ff1f59f9-fc97-4f7c-a162-82c5ec291284)
+ ![IMG-20251118-WA0037(1)](https://github.com/user-attachments/assets/ff1f59f9-fc97-4f7c-a162-82c5ec291284)
 
 - **Dashboard**
-- ![IMG-20251118-WA0036(1)](https://github.com/user-attachments/assets/94fa0abb-7e46-40d0-a065-90959c511baf)
+ ![IMG-20251118-WA0036(1)](https://github.com/user-attachments/assets/94fa0abb-7e46-40d0-a065-90959c511baf)
   
 - **Lista**
-- ![IMG-20251118-WA0038(1)](https://github.com/user-attachments/assets/e967a777-de72-496a-b0c1-283ed1cbd383)
+ ![IMG-20251118-WA0038(1)](https://github.com/user-attachments/assets/e967a777-de72-496a-b0c1-283ed1cbd383)
 
 - **Gamificação**
-- ![IMG-20251118-WA0035(2)](https://github.com/user-attachments/assets/f4d2cd09-bf0f-4d8e-8b36-57f18a955599)
+ ![IMG-20251118-WA0035(2)](https://github.com/user-attachments/assets/f4d2cd09-bf0f-4d8e-8b36-57f18a955599)
   
 
 ---
