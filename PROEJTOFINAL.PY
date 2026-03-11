@@ -110,21 +110,133 @@ def dashboard():
     limpar()
     criar_topo()
 
-    conteudo=tk.Frame(janela,bg=FUNDO)
-    conteudo.pack(fill="both",expand=True,padx=40,pady=40)
+    conteudo = tk.Frame(janela,bg=FUNDO)
+    conteudo.pack(fill="both",expand=True,padx=40,pady=30)
 
-    def card(x,titulo,valor):
+    # --------- DADOS SIMULADOS ---------
 
-        c=tk.Frame(conteudo,bg=BRANCO,width=220,height=100)
+    jogadores_ativos = 12
+    treinos_semana = 18
+    media_pontos = 1450
+    sua_posicao = 4
+
+    semana = [
+        ("Seg",120),
+        ("Ter",180),
+        ("Qua",160),
+        ("Qui",210),
+        ("Sex",190),
+        ("Sab",240),
+        ("Dom",150)
+    ]
+
+    # --------- CARDS ---------
+
+    def card(x,titulo,valor,icone):
+
+        c = tk.Frame(conteudo,bg=BRANCO,width=240,height=110)
         c.place(x=x,y=0)
 
-        tk.Label(c,text=titulo,bg=BRANCO,fg="#64748b").pack(pady=10)
-        tk.Label(c,text=valor,font=("Segoe UI",20,"bold"),bg=BRANCO).pack()
+        tk.Label(
+            c,
+            text=f"{icone}  {titulo}",
+            bg=BRANCO,
+            fg="#64748b",
+            font=("Segoe UI",10)
+        ).pack(pady=10)
 
-    card(0,"Pontos Totais",pontos_usuario)
-    card(260,"Treinos Criados",len(treinos))
-    card(520,"Treinos Concluídos",0)
-    card(780,"Sistema","Ativo")
+        tk.Label(
+            c,
+            text=valor,
+            font=("Segoe UI",22,"bold"),
+            bg=BRANCO,
+            fg=AZUL
+        ).pack()
+
+    card(0,"Pontos Totais",pontos_usuario,"⭐")
+    card(260,"Jogadores Ativos",jogadores_ativos,"👥")
+    card(520,"Treinos da Semana",treinos_semana,"🏋")
+    card(780,"Sua Posição",f"{sua_posicao}º","🏆")
+
+
+    # --------- PROGRESSO SEMANAL ---------
+
+    box1 = tk.Frame(conteudo,bg=BRANCO,width=520,height=350)
+    box1.place(x=0,y=150)
+
+    tk.Label(
+        box1,
+        text="Desempenho da Semana",
+        font=("Segoe UI",12,"bold"),
+        bg=BRANCO
+    ).pack(pady=10)
+
+    for dia,pontos in semana:
+
+        linha = tk.Frame(box1,bg=BRANCO)
+        linha.pack(fill="x",padx=20,pady=6)
+
+        tk.Label(linha,text=dia,width=5,bg=BRANCO).pack(side="left")
+
+        barra = ttk.Progressbar(
+            linha,
+            length=300,
+            value=pontos,
+            maximum=300
+        )
+        barra.pack(side="left",padx=10)
+
+        tk.Label(
+            linha,
+            text=f"{pontos} pts",
+            bg=BRANCO
+        ).pack(side="left")
+
+
+    # --------- TOP RANKING ---------
+
+    ranking_box = tk.Frame(conteudo,bg=BRANCO,width=520,height=350)
+    ranking_box.place(x=560,y=150)
+
+    tk.Label(
+        ranking_box,
+        text="Top Jogadores",
+        font=("Segoe UI",12,"bold"),
+        bg=BRANCO
+    ).pack(pady=10)
+
+    ranking_simulado = [
+        ("🥇 Lucas",1850),
+        ("🥈 Marcos",1720),
+        ("🥉 Fernanda",1600),
+        ("4º Você",pontos_usuario),
+        ("5º Carlos",1400)
+    ]
+
+    for nome,pontos in ranking_simulado:
+
+        linha = tk.Frame(ranking_box,bg=BRANCO)
+        linha.pack(fill="x",padx=20,pady=6)
+
+        tk.Label(
+            linha,
+            text=nome,
+            width=15,
+            bg=BRANCO
+        ).pack(side="left")
+
+        ttk.Progressbar(
+            linha,
+            length=250,
+            value=pontos,
+            maximum=2000
+        ).pack(side="left",padx=10)
+
+        tk.Label(
+            linha,
+            text=f"{pontos} pts",
+            bg=BRANCO
+        ).pack(side="left")
 
 def adicionar_treino():
 
